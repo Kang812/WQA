@@ -1,0 +1,10 @@
+--index-url https://download.pytorch.org/whl/cu118
+torch==2.4.0
+--index-url https://download.pytorch.org/whl/cu118
+torchvision==0.19.0
+--index-url https://download.pytorch.org/whl/cu118
+torchaudio==2.4.0
+opencv-python==4.10.0.84
+pandas==2.2.3
+matplotlib
+"unsloth[cu118-torch240] @ git+https://github.com/unslothai/unsloth.git"

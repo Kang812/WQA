@@ -1,0 +1,18 @@
+python ./utils/trainer.py \
+    --model_name unsloth/Llama-3.2-11B-Vision-Instruct \
+    --load_in_4bit True \
+    --use_gradient_checkpointing unsloth \
+    --train_df_path /workspace/whole_slide_image_LLM/data/vqa_dataset/vqa_train.csv \
+    --r 16 \
+    --lora_alpha 16 \
+    --lora_dropout 0 \
+    --per_device_train_batch_size 2 \
+    --gradient_accumulation_steps 4 \
+    --warmup_steps 5 \
+    --num_train_epochs 3 \
+    --lr 2e-4 \
+    --optim adamw_8bit \
+    --weight_decay 0.01 \
+    --lr_scheduler_type linear \
+    --output_dir /workspace/whole_slide_image_LLM/data/vqa_dataset/save_path/ \
+    --max_seq_length 2048
