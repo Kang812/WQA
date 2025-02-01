@@ -52,7 +52,7 @@ python ./utils/wsi_core/mask_gen.py
 | background | 98.0  | 99.02 |
 | tissue     | 91.84 | 95.61 |
 
-- model download link : [link]()
+- model download link : [link](https://drive.google.com/file/d/1bkWw5-atmhZv_s7dM2ibXEbF1C0SGcou/view?usp=sharing)
 
 ### image preprocessing
 ```
@@ -78,7 +78,7 @@ python ./utils/wsi_core/vqa_data_gen.py
 ### eval results
 | BLEU  | ROUGE-1 | ROUGE-2 | ROUGE-L | ROUGE-Lsum | METEOR | Model Link |
 |-------|---------|---------|---------|------------|--------|------------|
-| 0.6785 | 0.7329  | 0.5847  | 0.7326  | 0.7327     | 0.7878 | [Link](#)  |
+| 0.6785 | 0.7329  | 0.5847  | 0.7326  | 0.7327     | 0.7878 | [Link](https://drive.google.com/file/d/1x1xXMjzbymaqglWrf7QMkNTXFezH-MTA/view?usp=drive_link)  |
 
 ## Reference
 - [WSI-VQA: Interpreting Whole Slide Images by Generative Visual Question Answering](https://arxiv.org/abs/2407.05603)
