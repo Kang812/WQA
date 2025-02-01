@@ -29,7 +29,7 @@ pip install -r requirement.txt
 ```
 
 ## Usage data
-- I used Dacon data[link](https://dacon.io/competitions/official/236011/overview/description)
+- I used Dacon data [link](https://dacon.io/competitions/official/236011/overview/description)
 - This dataset is used to determine whether breast cancer has metastasized to the lymph nodes.
 
 ## Pipe Line
