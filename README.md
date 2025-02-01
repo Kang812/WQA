@@ -76,8 +76,9 @@ python ./utils/wsi_core/vqa_data_gen.py
 ```
 
 ### eval results
-| bleu | rouge1 | rouge2 | rougeL | rougeLsum | meteor | model link |
-| 0.6785 | 0.7329 | 0.5847 | 0.7326 | 0.7327 | 0.7878 | [link]() |
+| BLEU  | ROUGE-1 | ROUGE-2 | ROUGE-L | ROUGE-Lsum | METEOR | Model Link |
+|-------|---------|---------|---------|------------|--------|------------|
+| 0.6785 | 0.7329  | 0.5847  | 0.7326  | 0.7327     | 0.7878 | [Link](#)  |
 
 ## Reference
 - [WSI-VQA: Interpreting Whole Slide Images by Generative Visual Question Answering](https://arxiv.org/abs/2407.05603)
