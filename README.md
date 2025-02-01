@@ -47,9 +47,10 @@ python ./utils/wsi_core/mask_gen.py
 ./tissue_segmentation/train.sh
 ```
 ### segmentation train results
-| Class | IoU | Acc |
-| background | 98.0 | 99.02 |
-| tissue | 91.84 | 95.61 |
+| Class      | IoU   | Acc   |
+|------------|-------|-------|
+| background | 98.0  | 99.02 |
+| tissue     | 91.84 | 95.61 |
 
 - model download link : [link]()
 
